@@ -41,7 +41,7 @@ getLoggedIn = async (req, res) => {
         console.log("err: " + err);
         res.json(false);
     }
-}
+}//
 
 loginUser = async (req, res) => {
     console.log("loginUser");
