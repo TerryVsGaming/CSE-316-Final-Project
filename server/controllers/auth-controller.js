@@ -75,7 +75,7 @@ loginUser = async (req, res) => {
                 })
         }
 
-        // LOGIN THE USER
+        // LOGIN THE USER//
         const token = auth.signToken(existingUser._id);
         console.log(token);
 
