@@ -42,7 +42,7 @@ getLoggedIn = async (req, res) => {
         res.json(false);
     }
 }
-//git
+
 loginUser = async (req, res) => {
     console.log("loginUser");
     try {
